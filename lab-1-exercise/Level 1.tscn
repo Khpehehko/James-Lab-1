@@ -1,3 +1,20 @@
-[gd_scene format=3 uid="uid://c534p4n0qb3lh"]
+[gd_scene load_steps=3 format=3 uid="uid://c534p4n0qb3lh"]
+
+[ext_resource type="Texture2D" uid="uid://bi41ylfj83blm" path="res://purepng.com-catcatanimal-981524635157xq83y.png" id="1_6hjj6"]
+[ext_resource type="PackedScene" uid="uid://bjmyxljtuhm3x" path="res://tree.tscn" id="2_pq3sw"]
 
 [node name="Level1" type="Node2D"]
+
+[node name="Purepng_com-catcatanimal-981524635157Xq83y" type="Sprite2D" parent="."]
+position = Vector2(40, 49)
+scale = Vector2(0.0339723, 0.0339723)
+texture = ExtResource("1_6hjj6")
+
+[node name="Tree" parent="." instance=ExtResource("2_pq3sw")]
+position = Vector2(2, 2)
+
+[node name="Tree2" parent="." instance=ExtResource("2_pq3sw")]
+position = Vector2(109, 2)
+
+[node name="Tree3" parent="." instance=ExtResource("2_pq3sw")]
+position = Vector2(67, 2)
