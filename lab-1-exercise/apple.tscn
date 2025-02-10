@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyy677rcid3kx"]
+
+[ext_resource type="Texture2D" uid="uid://bnff5u342moqv" path="res://fresh-red-apple-isolated-on-transparent-background-generative-ai-png.webp" id="1_xyrm3"]
+
+[node name="Apple" type="Node2D"]
+
+[node name="Fresh-red-apple-isolated-on-transparent-background-generative-ai-png" type="Sprite2D" parent="."]
+modulate = Color(1, 0.56, 0.56, 1)
+scale = Vector2(0.0165625, 0.0165625)
+texture = ExtResource("1_xyrm3")
