@@ -5,7 +5,7 @@
 
 [node name="Level1" type="Node2D"]
 
-[node name="Purepng_com-catcatanimal-981524635157Xq83y" type="Sprite2D" parent="."]
+[node name="Cat" type="Sprite2D" parent="."]
 position = Vector2(40, 49)
 scale = Vector2(0.0339723, 0.0339723)
 texture = ExtResource("1_6hjj6")

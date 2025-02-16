@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://c1bhd2ki8pwp8"]
+[gd_scene load_steps=3 format=3 uid="uid://qbgs6610qofk"]
 
-[ext_resource type="Texture2D" uid="uid://w8kas05tmyof" path="res://icon.svg" id="1_ishno"]
-[ext_resource type="Texture2D" uid="uid://bi41ylfj83blm" path="res://purepng.com-catcatanimal-981524635157xq83y.png" id="2_l5w7n"]
+[ext_resource type="Texture2D" uid="uid://w8kas05tmyof" path="res://icon.svg" id="1_mpgst"]
+[ext_resource type="Texture2D" uid="uid://bi41ylfj83blm" path="res://purepng.com-catcatanimal-981524635157xq83y.png" id="2_y6jpl"]
 
 [node name="Main Scene" type="Node2D"]
 position = Vector2(0, 2)
@@ -10,16 +10,16 @@ scale = Vector2(1.0168, 0.977008)
 [node name="Icon" type="Sprite2D" parent="."]
 modulate = Color(0.470588, 0.427451, 1, 1)
 position = Vector2(-221.282, -77.7885)
-texture = ExtResource("1_ishno")
+texture = ExtResource("1_mpgst")
 
 [node name="Cat" type="Sprite2D" parent="Icon"]
 position = Vector2(180.96, -54.2472)
 scale = Vector2(0.133722, 0.133722)
-texture = ExtResource("2_l5w7n")
+texture = ExtResource("2_y6jpl")
 
 [node name="Child Icon" type="Sprite2D" parent="Icon"]
 position = Vector2(85.5625, 165.812)
-texture = ExtResource("1_ishno")
+texture = ExtResource("1_mpgst")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 position = Vector2(67.8599, -9.53674e-07)

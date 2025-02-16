@@ -4,7 +4,7 @@
 
 [node name="Apple" type="Node2D"]
 
-[node name="Fresh-red-apple-isolated-on-transparent-background-generative-ai-png" type="Sprite2D" parent="."]
+[node name="Apple Icon" type="Sprite2D" parent="."]
 modulate = Color(1, 0.56, 0.56, 1)
 scale = Vector2(0.0165625, 0.0165625)
 texture = ExtResource("1_xyrm3")
